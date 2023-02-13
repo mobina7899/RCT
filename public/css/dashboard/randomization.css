@@ -1,0 +1,49 @@
+/* ======================== randomization style =================== */
+
+#randomization {
+    user-select: none;
+}
+
+#randomization .form-group i.fa-plus {
+    position: absolute;
+    top: 52px;
+    left: 30px;
+    cursor: pointer;
+}
+
+#randomization .item-box span {
+    background-color: #3fb1dd;
+    color: white;
+    border-radius: 5px;
+    display: block;
+}
+#randomization .item-box i.fa-xmark {
+    cursor: pointer;
+    vertical-align: -2px;
+}
+
+#randomization .sick-search {
+    position: absolute;
+    top: 80px;
+    right: 1rem;
+    left: 1rem;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0;
+    max-height: 200px;
+    overflow: auto;
+    z-index: 999;
+}
+
+#randomization .sick-search li {
+    padding: 3px 8px;
+    transition: all 0.2s;
+}
+
+#randomization .sick-search li:hover,
+#randomization .sick-search li.selected {
+    background-color: #3fb1ddaa;
+    color: white;
+}

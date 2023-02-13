@@ -1,0 +1,199 @@
+[
+    {
+        "id":"101",
+        "name":"موازی",
+        "parent_id":"0"
+    },
+
+    {
+        "id":"201101",
+        "name":"کمی ( دو گروه مستقل)",
+        "parent_id":"101"
+    },
+
+    {
+        "id":"202101",
+        "name":"کمی (زمان تا رخداد واقعه)",
+        "parent_id":"101"
+    },
+    {
+        "id":"204101",
+        "name":"کیفی( دو گروه مستقل)",
+        "parent_id":"101"
+    },
+
+
+    {
+        "id":"102",
+        "name":"متقاطع",
+        "parent_id":"0"
+    },
+
+    {
+        "id":"201102",
+        "name":"کمی ( دو گروه مستقل)",
+        "parent_id":"102"
+    },
+
+
+    {
+        "id":"103",
+        "name":"خوشه ای",
+        "parent_id":"0"
+    },
+    {
+        "id":"201103",
+        "name":"کمی ( دو گروه مستقل)",
+        "parent_id":"103"
+    },
+    {
+        "id":"203103",
+        "name":"کمی (وابسته)",
+        "parent_id":"103"
+    },
+    {
+        "id":"204103",
+        "name":"کیفی( دو گروه مستقل)",
+        "parent_id":"103"
+    },
+    {
+        "id":"205103",
+        "name":"کیفی (وابسته)",
+        "parent_id":"103"
+    },
+
+
+    {
+        "id":"104",
+        "name":"Splite mouthe",
+        "parent_id":"0"
+    },
+    {
+        "id":"203104",
+        "name":"کمی (وابسته)",
+        "parent_id":"104"
+    },
+
+
+
+    {
+        "id":"3",
+        "name":"Non-inferiority design ",
+        "parent_id":"201101",
+        "furmula" : "#furmul1"
+    },
+    {
+        "id":"4",
+        "name":"Equivalence design ",
+        "parent_id":"201101",
+        "furmula" : "#furmul2"
+    },
+    {
+        "id":"5",
+        "name":"Superiority design ",
+        "parent_id":"201101",
+        "furmula" : "#furmul3"
+    },
+    {
+        "id":"24",
+        "name":"Non-inferiority design ",
+        "parent_id":"204101",
+        "furmula" : "#furmul4"
+    },
+    {
+        "id":"25",
+        "name":"Equivalence design ",
+        "parent_id":"204101",
+
+        "furmula" : "#furmul5"
+    },
+    {
+        "id":"26",
+        "name":"Superiority design ",
+        "parent_id":"204101",
+        "furmula" : "#furmul6"
+    },
+    {
+        "id":"27",
+        "name":"Non-inferiority design (Odds ratio)",
+        "parent_id":"204101",
+        "furmula" : "#furmul7"
+    },
+    {
+        "id":"28",
+        "name":"Equivalence design (Odds ratio)",
+        "parent_id":"204101",
+        "furmula" : "#furmul8"
+    },
+    {
+        "id":"29",
+        "name":"Superiority design (Odds ratio)",
+        "parent_id":"204101",
+        "furmula" : "#furmul9"
+    },
+
+
+    {
+        "id":"13",
+        "name":"Non-inferiority design ",
+        "parent_id":"202101",
+        "furmula" : "#furmul10"
+
+    },
+    {
+        "id":"14",
+        "name":"Equivalence design ",
+        "parent_id":"202101",
+        "furmula" : "#furmul11"
+    },
+    {
+        "id":"15",
+        "name":"Superiority design ",
+        "parent_id":"202101",
+        "furmula" : "#furmul12"
+    },
+    {
+        "id":"8",
+        "name":"Equivalence design ",
+        "parent_id":"201102",
+        "furmula" : "#furmul13"
+    },
+    {
+        "id":"10",
+        "name":"Equivalence design ",
+        "parent_id":"201103",
+        "furmula" : "#furmul14"
+    },
+    {
+        "id":"30",
+        "name":"Equivalence design ",
+        "parent_id":"204103",
+        "furmula" : "#furmul15"
+    },
+
+    {
+        "id":"19",
+        "name":"Equivalence design ",
+        "parent_id":"203103",
+        "furmula" : "#furmul16"
+    },
+
+    {
+        "id":"33",
+        "name":"Equivalence design ",
+        "parent_id":"205103",
+        "furmula" : "#furmul17"
+    },
+    {
+        "id":"20",
+        "name":"Equivalence design ",
+        "parent_id":"203104",
+        "furmula" : "#furmul18"
+    },
+    {
+        "id":"6",
+        "name":"Repeated measurs",
+        "parent_id":"201101",
+        "furmula" : "#furmul19"
+    }
+]

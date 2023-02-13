@@ -1,0 +1,207 @@
+[
+  {
+    "id":"1",
+    "name":"کمی ( دو گروه مستقل)",
+    "parent_id":"0"
+  },
+
+  {
+    "id":"2",
+    "name":"موازی",
+    "parent_id":"1"
+  },
+
+
+
+  {
+    "id":"3",
+    "name":"Non-inferiority design ",
+    "parent_id":"2",
+    "furmula" : "#furmul1"
+  },{
+  "id":"4",
+  "name":"Equivalence design ",
+  "parent_id":"2",
+  "furmula" : "#furmul2"
+},{
+  "id":"5",
+  "name":"Superiority design ",
+  "parent_id":"2",
+  "furmula" : "#furmul3"
+},{
+  "id":"6",
+  "name":"Repeated measurs",
+  "parent_id":"2",
+  "furmula" : "#furmul19"
+},
+
+
+
+  {
+    "id":"7",
+    "name":"متقاطع",
+    "parent_id":"1"
+  },
+  {
+    "id":"8",
+    "name":"Equivalence design ",
+    "parent_id":"7",
+    "furmula" : "#furmul13"
+  },
+
+  {
+    "id":"9",
+    "name":"خوشه ای",
+    "parent_id":"1"
+  },
+  {
+    "id":"10",
+    "name":"Equivalence design ",
+    "parent_id":"9",
+    "furmula" : "#furmul14"
+  },
+  {
+    "id":"11",
+    "name":"کمی (زمان تا رخداد واقعه)",
+    "parent_id":"0"
+  },
+
+  {
+    "id":"12",
+    "name":"موازی",
+    "parent_id":"11"
+  },
+
+  {
+    "id":"13",
+    "name":"Non-inferiority design ",
+    "parent_id":"12",
+    "furmula" : "#furmul10"
+
+  },
+  {
+    "id":"14",
+    "name":"Equivalence design ",
+    "parent_id":"12",
+    "furmula" : "#furmul11"
+  },
+  {
+    "id":"15",
+    "name":"Superiority design ",
+    "parent_id":"12",
+    "furmula" : "#furmul12"
+  },
+  {
+    "id":"16",
+    "name":"کمی ( وابسته)",
+    "parent_id":"0"
+  },
+
+  {
+    "id":"17",
+    "name":"خوشه ای",
+    "parent_id":"16"
+  },
+  {
+    "id":"18",
+    "name":"Splite mouthe",
+    "parent_id":"16"
+  },
+
+
+
+
+  {
+    "id":"19",
+    "name":"Equivalence design ",
+    "parent_id":"17",
+    "furmula" : "#furmul16"
+  },
+  {
+    "id":"20",
+    "name":"Equivalence design ",
+    "parent_id":"18",
+    "furmula" : "#furmul18"
+  },
+  {
+    "id":"21",
+    "name":"کیفی( دو گروه مستقل)",
+    "parent_id":"0"
+  },
+
+  {
+    "id":"22",
+    "name":"موازی",
+    "parent_id":"21"
+  },
+  {
+    "id":"23",
+    "name":"خوشه ای",
+    "parent_id":"21"
+  },
+
+
+
+
+  {
+    "id":"24",
+    "name":"Non-inferiority design ",
+    "parent_id":"22",
+    "furmula" : "#furmul4"
+  },
+  {
+    "id":"25",
+    "name":"Equivalence design ",
+    "parent_id":"22",
+    "furmula" : "#furmul5"
+  },
+  {
+    "id":"26",
+    "name":"Superiority design ",
+    "parent_id":"22",
+    "furmula" : "#furmul6"
+  },
+  {
+    "id":"27",
+    "name":"Non-inferiority design (Odds ratio)",
+    "parent_id":"22",
+    "furmula" : "#furmul7"
+  },
+  {
+    "id":"28",
+    "name":"Equivalence design (Odds ratio)",
+    "parent_id":"22",
+    "furmula" : "#furmul8"
+  },
+  {
+    "id":"29",
+    "name":"Superiority design (Odds ratio)",
+    "parent_id":"22",
+    "furmula" : "#furmul9"
+  },
+  {
+    "id":"30",
+    "name":"Equivalence design ",
+    "parent_id":"23",
+    "furmula" : "#furmul15"
+  },
+  {
+    "id":"31",
+    "name":"کیفی ( وابسته)",
+    "parent_id":"0"
+  },
+
+
+  {
+    "id":"32",
+    "name":"خوشه ای",
+    "parent_id":"31"
+  },
+
+  {
+    "id":"33",
+    "name":"Equivalence design ",
+    "parent_id":"32",
+    "furmula" : "#furmul17"
+  }
+]
