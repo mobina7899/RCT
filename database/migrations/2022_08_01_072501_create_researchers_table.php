@@ -20,7 +20,7 @@ class CreateResearchersTable extends Migration
             $table->string('username');
             $table->string('range');
             $table->string('major');
-            $table->string('proficiency');
+//            $table->string('proficiency');
             $table->string('university');
             $table->string('organization');
 

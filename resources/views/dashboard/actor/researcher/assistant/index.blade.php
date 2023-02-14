@@ -50,8 +50,8 @@
                                             <th>نام ونام خانوادگی</th>
                                             <th>کدملی</th>
                                             <th>مرتبه علمی</th>
-                                            <th>رشته</th>
-                                            <th>تخصص</th>
+                                            <th>مدرک تحصیلی</th>
+{{--                                            <th>تخصص</th>--}}
                                             <th>دانشگاه</th>
                                             <th>سازمان</th>
                                             @if($flag)
@@ -72,7 +72,7 @@
                                                 <td>{{ $assistant->range }}
                                                 </td>
                                                 <td>{{ $assistant->major }}</td>
-                                                <td>{{ $assistant->proficiency }}</td>
+{{--                                                <td>{{ $assistant->proficiency }}</td>--}}
                                                 <td>{{ $assistant->university }}</td>
                                                 <td>{{ $assistant->organization }}</td>
                                                 @if($flag)

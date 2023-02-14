@@ -75,8 +75,8 @@
                     <th>نام و نام خانوادگی</th>
                     <th>کدملی</th>
                     <th>مرتبه علمی</th>
-                    <th>رشته</th>
-                    <th>تخصص</th>
+                    <th>مدرک تحصیلی</th>
+{{--                    <th>تخصص</th>--}}
                     <th>دانشگاه</th>
                     <th>سازمان</th>
                 </tr>
@@ -100,9 +100,9 @@
                         <td class=" col-lg-4 ">
                             <p>{{ $researcher->major }}</p>
                         </td>
-                        <td class=" col-lg-4 ">
-                            <p>{{ $researcher->proficiency }}</p>
-                        </td>
+{{--                        <td class=" col-lg-4 ">--}}
+{{--                            <p>{{ $researcher->proficiency }}</p>--}}
+{{--                        </td>--}}
                         <td class=" col-lg-4 ">
                             <p>{{ $researcher->university }}</p>
                         </td>

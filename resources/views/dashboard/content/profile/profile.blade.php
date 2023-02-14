@@ -313,34 +313,34 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <div class="col-12 px-2">
-                                            <strong>رشته تحصیلی:</strong>
+{{--                                    <div class="form-group">--}}
+{{--                                        <div class="col-12 px-2">--}}
+{{--                                            <strong>رشته تحصیلی:</strong>--}}
 
-                                            <input value="{{ old('major') }}" type="text" name="major"
-                                                id="major" class="form-control" placeholder="رشته تحصیلی">
+{{--                                            <input value="{{ old('major') }}" type="text" name="major"--}}
+{{--                                                id="major" class="form-control" placeholder="رشته تحصیلی">--}}
 
 
-                                            <div class="errors text-danger">
-                                                @error('major')
-                                                    {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                            <div class="errors text-danger">--}}
+{{--                                                @error('major')--}}
+{{--                                                    {{ $message }}--}}
+{{--                                                @enderror--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
 
 
                                     <div class="form-group">
                                         <div class="col-6 px-2">
 
-                                            <strong>تخصص:</strong>
+                                            <strong>مدرک تحصیلی :</strong>
 
-                                            <input value="{{ old('proficiency') }}" type="text" name="proficiency"
-                                                id="proficiency" class="form-control" placeholder="تخصص">
+                                            <input value="{{ old('major') }}" type="text" name="major"
+                                                id="major" class="form-control" placeholder="تخصص">
 
 
                                             <div class="errors text-danger">
-                                                @error('proficiency')
+                                                @error('major')
                                                     {{ $message }}
                                                 @enderror
                                             </div>

@@ -22,7 +22,7 @@ class Researcher extends User
         'name',
         'f_name',
         'major',
-        'proficiency',
+//        'proficiency',
         'university',
         'organization',
         'user_id',

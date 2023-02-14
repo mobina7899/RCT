@@ -20941,7 +20941,7 @@ span.badge {
     outline: 0
 }
 
-.btn:not(.btn-link):not(.btn-circle) i {
+.btn:not(.btn-link):not(.btn-circle) i:not(i.fa-angle-down , i.fa-angle-up) {
     font-size: 14px;
     position: relative;
     line-height: 1

@@ -74,7 +74,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 px-2">
-                                    <label><strong>رشته تحصیلی :</strong></label>
+                                    <label><strong>مدرک تحصیلی :</strong></label>
                                     <input type="text" name="major" value="{{ $research->major }}"
                                         class="form-control" placeholder="رشته" />
                                     <div class="errors text-danger">
@@ -83,16 +83,16 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-4 px-2">
-                                    <label><strong>تخصص :</strong></label>
-                                    <input type="text" name="proficiency" value="{{ $research->proficiency }}"
-                                        class="form-control" placeholder="تخصص" />
-                                    <div class="errors text-danger">
-                                        @error('proficiency')
-                                            {{ $message }}
-                                        @enderror
-                                    </div>
-                                </div>
+{{--                                <div class="col-12 col-md-6 col-lg-4 px-2">--}}
+{{--                                    <label><strong>تخصص :</strong></label>--}}
+{{--                                    <input type="text" name="proficiency" value="{{ $research->proficiency }}"--}}
+{{--                                        class="form-control" placeholder="تخصص" />--}}
+{{--                                    <div class="errors text-danger">--}}
+{{--                                        @error('proficiency')--}}
+{{--                                            {{ $message }}--}}
+{{--                                        @enderror--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
                                 <div class="col-12 col-md-6 px-2">
                                     <label><strong>دانشگاه :</strong></label>

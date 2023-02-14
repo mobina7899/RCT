@@ -4174,8 +4174,8 @@ body.boxed {
 }
 
 .cs .signup-box a {
-    background-color: #60b8e1;
-    padding: 3px 13px;
+    background-color: #72d2ff;
+    padding: 5px 15px;
     border-radius: 5px;
     margin-right: 3px !important;
 }
@@ -12864,6 +12864,10 @@ isotope portfolio and gallery pos
     }
 }
 
+.page_mainslider img {
+    height: 400px;
+}
+
 .owl-item {
     direction: rtl;
 }
@@ -13984,7 +13988,7 @@ body {
 
 .signup-box .btn-register,
 .signup-box-inner .btn-register {
-    background-color: #60b8e1;
+    background-color: #72d2ff;
     padding: 3px 13px;
     border-radius: 5px;
     color: white;

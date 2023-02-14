@@ -102,7 +102,7 @@ route('study') : route('dashboard')}}">
                                         fill="#fff" opacity=".8" fill-rule="nonzero"/>
                                 </g>
                             </svg>
-                            <span>بیمار</span>
+                            <span>بیماران</span>
                         </a>
                         <ul class="ml-menu" style="display: none;">
                             @can('read-patient')

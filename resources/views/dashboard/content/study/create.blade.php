@@ -18,7 +18,7 @@
             <div class="questionnaire">
                 <div class="container-fluid">
                     <div class="row questionnaire-box justify-content-center h-100 align-items-center">
-                        <div class="col-12 col-md-10 row px-0 position-relative">
+                        <div class="col-12 col-md-11 row px-0 position-relative">
                             <div class="col-12 col-md-2 h-100 px-0 ">
                                 <div class="steps px-0">
 
@@ -148,7 +148,7 @@
                                             </div>
                                             <div class="form-group px-2">
                                                 <div class="col-12 position-relative">
-                                                    <label><strong>برچسب ها :</strong></label>
+                                                    <label><strong> کلمات کلیدی :</strong></label>
                                                     <input class="plan-tags form-control" name="tags" />
                                                     <i class="fa-solid fa-plus"></i>
                                                     <div class="text-danger errors">
@@ -678,7 +678,7 @@
 
                                                 </div>
 
-                                                <div class="pt-3 px-2 text-center mt-auto">
+                                                <div class="pt-3 px-2 text-center my-auto">
                                                     <button id="submit-plan">ثبت طرح</button>
                                                 </div>
                                             </div>

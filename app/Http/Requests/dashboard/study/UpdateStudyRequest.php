@@ -25,8 +25,8 @@ class UpdateStudyRequest extends FormRequest
     {
         return [
 
-            'title' => 'nullable|regex:/^[\x{600}-\x{6FF}\x{200c}\x{064b}\x{064d}\x{064c}\x{064e}\x{064f}\x{0650}\x{0651}a-zA-Z\s]+$/u',
-            'name' => 'nullable|regex:/^[\x{600}-\x{6FF}\x{200c}\x{064b}\x{064d}\x{064c}\x{064e}\x{064f}\x{0650}\x{0651} a-zA-Z\s]+$/u',
+            'title' => 'nullable|regex:/^[\x{600}-\x{6FF}\x{200c}\x{064b}\x{064d}\x{064c}\x{064e}\x{064f}\x{0650}\x{0651}a-zA-Z\s]+$/u|max:255',
+            'name' => 'nullable|regex:/^[\x{600}-\x{6FF}\x{200c}\x{064b}\x{064d}\x{064c}\x{064e}\x{064f}\x{0650}\x{0651} a-zA-Z\s]+$/u|max:255',
             'studies_type' => 'nullable|regex:/^[\x{600}-\x{6FF}\x{200c}\x{064b}\x{064d}\x{064c}\x{064e}\x{064f}\x{0650}\x{0651}a-zA-Z\s]+$/u',
             'study_design' => 'nullable|regex:/^[\x{600}-\x{6FF}\x{200c}\x{064b}\x{064d}\x{064c}\x{064e}\x{064f}\x{0650}\x{0651}a-zA-Z0-9\s]+$/u',
             'file' => 'nullable|mimes:doc,xlx,pdf,scv,xls,docx,',

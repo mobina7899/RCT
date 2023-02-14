@@ -53,7 +53,7 @@
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 my-4">
                                     <div class="summary-item text-center">
-                                        <h2 class="pt-5">بیمار</h2>
+                                        <h2 class="pt-5">بیماران</h2>
                                         <h1 class="py-3">{{$patientCount}}</h1>
                                         <div class="summary-title">
                                             <i class="fa-solid fa-users align-middle"></i>
@@ -87,6 +87,22 @@
                                             {{isset($type) && $type=='studies_type' ? 'selected' : ''}}  value="studies_type">
                                             نوع
                                         </option>
+{{--                                        <option {{isset($type) && $type=='2' ? 'selected' : ''}} value="2"> تکمیل نشده--}}
+{{--                                        </option>--}}
+{{--                                        <option {{isset($type) && $type=='0' ? 'selected' : ''}} value="0"> تایید نشده--}}
+{{--                                        </option>--}}
+{{--                                        <option {{isset($type) && $type=='1' ? 'selected' : ''}} value="1"> تایید شده--}}
+{{--                                        </option>--}}
+                                    </select>
+
+
+                                </div>
+
+                                <div class="w-auto d-flex flex-nowrap align-items-center">
+                    <span class="mr-2">فیلتر ها‌:</span
+                    ><select id="study_sort" class="form-select">
+                                        <option disabled selected> انتخاب کنید</option>
+
                                         <option {{isset($type) && $type=='2' ? 'selected' : ''}} value="2"> تکمیل نشده
                                         </option>
                                         <option {{isset($type) && $type=='0' ? 'selected' : ''}} value="0"> تایید نشده
@@ -94,6 +110,8 @@
                                         <option {{isset($type) && $type=='1' ? 'selected' : ''}} value="1"> تایید شده
                                         </option>
                                     </select>
+
+
                                 </div>
                                 @can('create-study')
                                     <a href="{{route('study.create')}}" class="add-user">

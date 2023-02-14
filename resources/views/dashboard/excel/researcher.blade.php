@@ -34,8 +34,8 @@
         <th width='15' height='25' align="center"> نام خانوادگی</th>
         <th width='35' height='25' align="center"> کد ملی </th>
         <th width='15' height='25' align="center"> مرتبه علمی </th>
-        <th width='15' height='25' align="center"> رشته </th>
-        <th width='15' height='25' align="center"> تخصص </th>
+        <th width='15' height='25' align="center"> مدرک تحصیلی </th>
+{{--        <th width='15' height='25' align="center"> تخصص </th>--}}
         <th width='15' height='25' align="center"> دانشگاه </th>
         <th width='15' height='25' align="center"> سازمان </th>
     </tr>
@@ -52,7 +52,7 @@
             <td width='35' height='25' align="center" >{{ $researcher->n_number }}</td>
             <td width='35' height='25' align="center" >{{ $researcher->range }}</td>
             <td width='35' height='25' align="center" >{{ $researcher->major }}</td>
-            <td width='35' height='25' align="center" >{{ $researcher->proficiency }}</td>
+{{--            <td width='35' height='25' align="center" >{{ $researcher->proficiency }}</td>--}}
             <td width='35' height='25' align="center" >{{ $researcher->university }}</td>
             <td width='35' height='25' align="center" >{{ $researcher->organization }}</td>
 

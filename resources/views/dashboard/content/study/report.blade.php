@@ -30,7 +30,7 @@
                                     <form id="search" class="search-study">
                                         @csrf
                                         <div class="form-group">
-                                            <div class="col-md-2">
+                                            <div class="col-6 col-md-4 col-lg-2 p-1">
                                                 <label>
                                                     <strong>نوع طرح :</strong>
                                                 </label>
@@ -40,7 +40,7 @@
                                                     <option value="نظرسنجی">نظرسنجی</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-2">
+                                            <div class="col-6 col-md-4 col-lg-2 p-1">
                                                 <label><strong>طراحی مطالعه :</strong></label>
                                                 <select name="study_design" class="form-select">
                                                     <option selected disabled>انتخاب کنید</option>
@@ -50,7 +50,7 @@
                                                     <option value="واحد">واحد</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-2">
+                                            <div class="col-6 col-md-4 col-lg-2 p-1">
                                                 <label><strong>هدف مطالعه</strong></label>
                                                 <select name="purpose_study" class="form-select">
                                                     <option selected disabled>انتخاب کنید</option>
@@ -81,7 +81,7 @@
                                                 </select>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-6 col-md-4 col-lg-2 p-1">
                                                 <label><strong>تصادفی سازی</strong></label>
                                                 <select class="form-select" name="randomization">
                                                     <option selected disabled>انتخاب کنید</option>
@@ -101,7 +101,7 @@
                                                 </select>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-6 col-md-4 col-lg-2 p-1">
                                                 <label><strong>کور سازی</strong></label>
                                                 <select class="form-select" name="blinding">
                                                     <option selected disabled>انتخاب کنید</option>
@@ -122,12 +122,12 @@
                                                 </select>
                                             </div>
 
-                                            <div class="col-md-1">
+                                            <div class="col-6 col-md-2 p-1 align-self-center text-center">
                                                 <label><strong>دارونما :</strong></label>
                                                 <input type="checkbox" name="placebo" class="form-check-input" />
 
                                             </div>
-                                            <div class="col-md-1">
+                                            <div class="col-6 col-md-2 p-1 align-self-center text-center">
                                                 <button type="submit" class="btn btn-primary">جست‌وجو</button>
                                             </div>
                                         </div>

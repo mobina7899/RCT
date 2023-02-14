@@ -120,7 +120,7 @@
                                 </div>
 
                                 <div class="col-12 col-md-6 col-lg-4 px-2">
-                                    <label><strong>رشته تحصیلی :</strong></label>
+                                    <label><strong>مدرک تحصیلی :</strong></label>
                                     <input value="{{ old('major') }}" type="text" name="major" class="form-control"
                                         placeholder="رشته" />
                                     <div class="errors text-danger">
@@ -130,23 +130,12 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 px-2">
-                                    <label><strong>تخصص :</strong></label>
-                                    <input value="{{ old('proficiency') }}" type="text" name="proficiency"
-                                        class="form-control" placeholder="تخصص" />
-                                    <div class="errors text-danger">
-                                        @error('proficiency')
-                                            {{ $message }}
-                                        @enderror
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-md-6 col-lg-4 px-2">
                                     <label><strong>دانشگاه :</strong></label>
                                     <input value="{{ old('university') }}" type="text" name="university"
-                                        class="form-control" placeholder="دانشگاه" />
+                                           class="form-control" placeholder="دانشگاه" />
                                     <div class="errors text-danger">
                                         @error('university')
-                                            {{ $message }}
+                                        {{ $message }}
                                         @enderror
                                     </div>
                                 </div>
@@ -154,13 +143,25 @@
                                 <div class="col-12 col-md-6 col-lg-4 px-2">
                                     <label><strong>سازمان :</strong></label>
                                     <input value="{{ old('organization') }}" type="text" name="organization"
-                                        class="form-control" placeholder="سازمان" />
+                                           class="form-control" placeholder="سازمان" />
                                     <div class="errors text-danger">
                                         @error('organization')
-                                            {{ $message }}
+                                        {{ $message }}
                                         @enderror
                                     </div>
                                 </div>
+                                <div class="col-12 col-md-6 col-lg-4 px-2">
+{{--                                    <label><strong>تخصص :</strong></label>--}}
+{{--                                    <input value="{{ old('proficiency') }}" type="text" name="proficiency"--}}
+{{--                                        class="form-control" placeholder="تخصص" />--}}
+{{--                                    <div class="errors text-danger">--}}
+{{--                                        @error('proficiency')--}}
+{{--                                            {{ $message }}--}}
+{{--                                        @enderror--}}
+{{--                                    </div>--}}
+                                </div>
+
+
                                 <div class="col-12 col-md-6 col-lg-4 px-2">
                                     <label><strong>سطح دسترسی :</strong></label>
                                     <div class="checklist-permission">

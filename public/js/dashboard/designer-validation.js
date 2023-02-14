@@ -21,7 +21,9 @@ function designerValidation(event, formName) {
     function isValidIranNational(code) {
         const regNational = /^[0-9]{10}/g;
         const fakeNational = ['0000000000', '1111111111', '2222222222', '3333333333', '4444444444', '5555555555', '6666666666', '7777777777', '8888888888', '9999999999'];
-
+console.log(fakeNational.includes(code));
+console.log(regNational.test(code));
+console.log(code);
         return fakeNational.includes(code) || !regNational.test(code);
     }
 

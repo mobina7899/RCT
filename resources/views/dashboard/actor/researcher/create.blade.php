@@ -122,25 +122,25 @@
                                 </div>
 
                                 <div class="col-12 col-md-6 col-lg-4 px-2">
-                                    <label><strong>رشته تحصیلی :</strong></label>
+                                    <label><strong>مدرک تحصیلی :</strong></label>
                                     <input value="{{ old('major') }}" type="text" name="major" class="form-control"
-                                        placeholder="رشته" />
+                                        placeholder="مدرک تحصیلی" />
                                     <div class="errors text-danger">
                                         @error('major')
                                             {{ $message }}
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-4 px-2">
-                                    <label><strong>تخصص :</strong></label>
-                                    <input value="{{ old('proficiency') }}" type="text" name="proficiency"
-                                        class="form-control" placeholder="تخصص" />
-                                    <div class="errors text-danger">
-                                        @error('proficiency')
-                                            {{ $message }}
-                                        @enderror
-                                    </div>
-                                </div>
+{{--                                <div class="col-12 col-md-6 col-lg-4 px-2">--}}
+{{--                                    <label><strong>تخصص :</strong></label>--}}
+{{--                                    <input value="{{ old('proficiency') }}" type="text" name="proficiency"--}}
+{{--                                        class="form-control" placeholder="تخصص" />--}}
+{{--                                    <div class="errors text-danger">--}}
+{{--                                        @error('proficiency')--}}
+{{--                                            {{ $message }}--}}
+{{--                                        @enderror--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
                                 <div class="col-12 col-md-6 col-lg-4 px-2">
                                     <label><strong>دانشگاه :</strong></label>
